@@ -313,6 +313,10 @@
     padding: 0 20px;
 }
 
+.padding-t-b-20{
+    padding: 20px 0;
+}
+
 .margin-auto{
     margin: auto;
 }
@@ -378,7 +382,8 @@
 }
 
 .button-white{
-    padding: 6px 35px;
+    padding: 6px 12px;
+    border-radius: 20px;
     background-color: #fff;
 }
 

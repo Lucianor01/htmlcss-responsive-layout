@@ -13,15 +13,15 @@
 
     <!-- HEADER -->
     <header class="bg-deep-sky-blue sticky">
-        <div class="flex justify-content-between padding-20 align-items-center">
+        <div class="width-80-margin-auto flex justify-content-between padding-t-b-20 align-items-center">
                 <img src="./assets/img/logo.png" alt="Logo">
                 <i class="fa-solid fa-bars c-white font-size-25"></i>
                 <ul class="display-none list-style-none">
-                    <li><a class="text-decoration-none" href="#">Planning</a></li>
-                    <li><a class="text-decoration-none" href="#">Testimonials</a></li>
-                    <li><a class="text-decoration-none" href="#">Features</a></li>
-                    <li><a class="text-decoration-none" href="#">About Us</a></li>
-                    <li><a class="text-decoration-none" href="#">Get Started</a></li>
+                    <li><a class="text-decoration-none c-white" href="#">Planning</a></li>
+                    <li><a class="text-decoration-none c-white" href="#">Testimonials</a></li>
+                    <li><a class="text-decoration-none c-white" href="#">Features</a></li>
+                    <li><a class="text-decoration-none c-white" href="#">About Us</a></li>
+                    <li><a class="text-decoration-none c-black button-white" href="#">Get Started</a></li>
                 </ul>
         </div>
     </header>
@@ -29,15 +29,19 @@
     <!-- MAIN -->
     <main>
         <!-- SECTION 1 -->
-        <section class="width-80-margin-auto margin-top-50">
+        <section class="width-80-margin-auto margin-top-50 container-section-1">
             <!-- CONTAINER CARD 1 -->
             <div class="bg-light-blue container-card-1 border-radius-20">
-                <h3 class="c-blue font-size-25 margin-top-20">Get a demo application</h3>
-                <p class="margin-top-20 c-jet-grey line-height-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis</p>
-                <div class="margin-top-20">
-                    <a class="display-inline-block text-decoration-none c-white button-blue" href="#"><i class="fa-brands fa-apple"></i> App Store</a>
+                <div>
+                    <h3 class="c-blue font-size-25 margin-top-20">Get a demo application</h3>
+                    <p class="margin-top-20 c-jet-grey line-height-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis</p>
+                    <div class="margin-top-20">
+                        <a class="display-inline-block text-decoration-none c-white button-blue" href="#"><i class="fa-brands fa-apple"></i> App Store</a>
+                    </div>
                 </div>
-                <img class="width-100-pc margin-top-20 display-block" src="./assets/img/phone.png" alt="Phone">
+                <div class="container-card-1-img">
+                    <img class="width-100-pc margin-top-20 display-block" src="./assets/img/phone.png" alt="Phone">
+                </div>
             </div>
             <!-- CONTAINER CARD 2 -->
             <div class="bg-light-blue container-card-2 border-radius-20 margin-top-30 flex flex-direction-column align-items-center padding-30">
@@ -68,14 +72,20 @@
         </section>
         <!-- SECTION 2 -->
         <section class="margin-top-50 bg-pale-purple padding-30">
-            <img class="width-100-pc margin-top-30 display-block" src="./assets/img/planning1.png" alt="Strategic-Planning">
-            <h3 class="c-white margin-top-50 font-size-30">Strategic Planning</h3>
-            <p class="margin-top-50 c-white">Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque massa placerat duis. Quis viverra nibh cras pulvinar mattis.</p>
-            <div class="bg-white margin-top-50 padding-20 border-radius-50 flex flex-direction-column align-items-center">
+            <div class="container-section-2">
+            <div class="container-section-2-left">
+                <img class="width-100-pc margin-top-30 display-block" src="./assets/img/planning1.png" alt="Strategic-Planning">
+                <h3 class="c-white margin-top-50 font-size-30">Strategic Planning</h3>
+                <p class="margin-top-50 c-white">Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque massa placerat duis. Quis viverra nibh cras pulvinar mattis.</p>
+            </div>
+            <div class="bg-white margin-top-50 padding-20 border-radius-50 flex flex-direction-column align-items-center container-section-2-right">
                 <img class="width-100-pc margin-top-30 display-block" src="./assets/img/planning2.png" alt="App-Developement">
                 <h3 class="text-center margin-top-20">App Developement</h3>
                 <p class="margin-top-20 text-center"><i>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</i></p>
-                <i class="fa-solid fa-arrow-down-long margin-top-30"></i>
+                <div class="circle bg-pale-purple margin-top-30">
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </div>
+            </div>
             </div>
         </section>
     </main>
