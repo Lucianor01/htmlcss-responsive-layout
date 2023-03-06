@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sticky{
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container-card-1{
+    padding: 20px 20px 0 20px;
+}
