@@ -134,6 +134,10 @@
     background-color: #000000;
 }
 
+.bg-dark-grey{
+    background-color: #333333;
+}
+
 .bg-grey{
     background: #4a4a4a;
 }
@@ -190,6 +194,10 @@
     color: #4bc800;
 }
 
+.c-apricot{
+    color: #fdc15f;
+}
+
 .c-white{
     color: #fff;
 }
@@ -208,6 +216,10 @@
 
 .c-blue{
     color: #0084fd;
+}
+
+.c-pale-purple{
+    color: #9792e4;
 }
 
 .c-black-rose{
@@ -277,6 +289,10 @@
     font-size: 40px;
 }
 
+.font-size-60{
+    font-size: 60px;
+}
+
 .font-size-80{
     font-size: 80px;
 }
@@ -295,6 +311,10 @@
 
 .padding-30{
     padding: 30px;
+}
+
+.padding-top-40{
+    padding-top: 40px;
 }
 
 .padding-top-60{
@@ -387,6 +407,24 @@
     background-color: #fff;
 }
 
+.button-white-2{
+    padding: 20px 60px;
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.button-purple{
+    padding: 6px 40px;
+    border-radius: 20px;
+    background-color: #9792e4;
+}
+
+.button-purple-2{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #9792e4;
+}
+
 .button-blue{
     padding: 8px 50px;
     border-radius: 20px;
@@ -419,4 +457,7 @@
 
 .line-height-2{
     line-height: 2;
+}
+.letter-spacing{
+    letter-spacing: 2px;
 }
