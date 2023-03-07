@@ -1,36 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header {
     z-index: 999;
 }
 
-.sticky{
+.sticky {
     top: 0;
     left: 0;
     right: 0;
 }
 
-.container-card-1{
+.container-section-1 {
+    max-width: 1200px;
+}
+
+.container-card-1 {
     padding: 20px 20px 0 20px;
 }
 
-.circle{
+.circle {
     border-radius: 50%;
     padding: 10px 17px;
 }
 
-.circle-img{
+.circle-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin: auto;
 }
-.circle-img-2{
+
+.circle-img-2 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -41,88 +46,174 @@ header{
     padding: 40px 20px;
 }
 
-.quote{
+.quote {
     top: 0;
     right: 0;
 }
 
-/* DESKTOP */
-@media screen and (min-width: 1024px){
-    .flex.justify-content-between.padding-t-b-20.align-items-center {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .fa-bars{
-        display: none;
-    }
-
-    .display-none{
-        display: flex;
-        display: block;
-    }
-
-    ul.display-none.list-style-none{
-        display: flex;
-        gap: 20px;
-    }
-
-    .container-card-1{
-        display: flex;
-    }
-
-    .container-card-1-img{
-        display: flex;
-        align-items: flex-end;
-    }
-
-    .container-section-2{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .container-section-2-left img{
-        width: 60%;
-    }
-
-    .container-section-2-right{
-        margin-top: 100px;
-    }
-
-    .container-section-2-right img{
-        width: 60%;
-        margin-top: 0;
-    }
-}
 
 /* Tablet */
-@media screen and (min-width: 768px){
-    .container-section-1{
+@media only screen and (min-width: 768px) {
+    .container-section-1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .container-card-1{
+    .container-card-1 {
         flex-basis: 65%;
     }
 
-    .container-card-2{
+    .container-card-2 {
         flex-basis: 30%;
     }
 
-    .container-card-1 + .container-card-2{
+    .container-card-1+.container-card-2 {
         margin-top: 0;
     }
 
-    .circle-img{
-        float: left; 
+    .container-section-2-left h3{
+        font-size: 50px;
+    }
+
+    .container-card-testimonials {
+        display: flex;
+        max-width: 1200px;
+    }
+
+    .circle-img {
         margin-right: 10px;
     }
 
-    .text-align-start-tablet{
+    .text-align-start-tablet {
         text-align: start;
+    }
+
+    .container-testimonials {
+        max-width: 1000px;
+    }
+
+    .container-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-card-section-4 {
+        flex-basis: calc(100% / 2 - 2%);
+    }
+
+    .container-about-us {
+        display: flex;
+    }
+
+    .container-about-us-2 {
+        margin-right: 50px;
+    }
+
+    .button-purple-2 {
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .section-6-h3 {
+        font-size: 40px;
+    }
+
+    .section-6-p{
+        width: 70%;
+        margin: auto;
+    }
+
+    .c-apricot {
+        font-size: 80px;
+    }
+
+    footer p {
+        margin: auto;
+        width: 70%;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px) {
+    .flex.justify-content-between.padding-t-b-20.align-items-center {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    .display-none {
+        display: flex;
+        display: block;
+    }
+
+    ul.display-none.list-style-none {
+        display: flex;
+        gap: 20px;
+    }
+
+    .container-card-1 {
+        display: flex;
+    }
+
+    .container-card-1-img {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .container-section-2 {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .container-section-2-left {
+        margin-right: 50px;
+        align-self: flex-end;
+    }
+
+    .container-section-2-left img {
+        width: 100%;
+    }
+
+    .container-section-2-right {
+        margin-top: 100px;
+        min-width: 240px;
+        align-self: flex-end;
+    }
+
+    .container-section-2-right img {
+        width: 60%;
+        margin-top: 0;
+    }
+
+    .container-card-testimonials {
+        margin: 30px auto;
+    }
+
+    .container-card-section-4 {
+        flex-basis: calc(100% / 3 - 2%);
+    }
+
+    .section-4-h2{
+        font-size: 50px;
+    }
+
+    .section-6-p {
+        padding-top: 20px;
+        margin: auto;
+        width: 30%;
+    }
+
+    footer p {
+        margin: auto;
+        width: 30%;
     }
 
 }
